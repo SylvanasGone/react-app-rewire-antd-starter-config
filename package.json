@@ -1,0 +1,29 @@
+{
+  "name": "react-app-rewire-antd-starter-config",
+  "version": "1.0.0",
+  "description": "A config for using react-app-rewired v2+ with Antd, react-hot-loader, PostCSS and more",
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-emotion": "^10.0.23",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "react-app-rewire-css-modules-extensionless": "^1.2.0",
+    "react-app-rewire-hot-loader-for-customize-cra": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react-app-rewired": ">=2",
+    "react-hot-loader": ">=4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylvanasGone/react-app-rewire-antd-starter-config.git"
+  },
+  "author": "SylvanasGone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SylvanasGone/react-app-rewire-antd-starter-config/issues"
+  },
+  "homepage": "https://github.com/SylvanasGone/react-app-rewire-antd-starter-config#readme"
+}
