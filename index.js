@@ -3,7 +3,6 @@ const {
   fixBabelImports,
   addWebpackAlias,
   override,
-  addBabelPlugins,
   addPostcssPlugins,
   useEslintRc
 } = require('customize-cra')
@@ -11,7 +10,6 @@ const rewireHotLoader = require('react-app-rewire-hot-loader-for-customize-cra')
 const rewireCssModules = require('react-app-rewire-css-modules-extensionless')
 
 module.exports = override(
-  ...addBabelPlugins('babel-plugin-emotion'),
   rewireCssModules(),
   addPostcssPlugins([
     require('postcss-preset-env')({

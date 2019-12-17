@@ -4,7 +4,6 @@
   "description": "A config for using react-app-rewired v2+ with Antd, react-hot-loader, PostCSS and more",
   "main": "index.js",
   "dependencies": {
-    "babel-plugin-emotion": "^10.0.23",
     "babel-plugin-import": "^1.13.0",
     "customize-cra": "^0.9.1",
     "postcss-flexbugs-fixes": "^4.1.0",
