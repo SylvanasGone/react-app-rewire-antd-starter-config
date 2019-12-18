@@ -10,6 +10,7 @@ const rewireHotLoader = require('react-app-rewire-hot-loader-for-customize-cra')
 const rewireCssModules = require('react-app-rewire-css-modules-extensionless')
 
 module.exports = override(
+  // enable CSS modules without extension
   rewireCssModules(),
   addPostcssPlugins([
     require('postcss-preset-env')({
@@ -20,6 +21,7 @@ module.exports = override(
   rewireHotLoader(),
   fixBabelImports(
     'import',
+    // import on demand
     {
       libraryName: 'antd',
       libraryDirectory: 'es',
@@ -32,6 +34,8 @@ module.exports = override(
       camel2DashComponentName: false
     }
   ),
+  // enable customize eslint config file
   useEslintRc('.eslintrc.json'),
+  // webpack alias
   addWebpackAlias({ '@': paths.appSrc })
 )
