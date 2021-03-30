@@ -32,7 +32,7 @@ After rewiring a create-react-app project, we have to ovrride much config to mee
 yarn add -D react-app-rewire-hot-loader
 
 # If you don't already, you also need
-yarn add react-hot-laoder
+yarn add react-hot-loader
 ```
 
 ## Install
